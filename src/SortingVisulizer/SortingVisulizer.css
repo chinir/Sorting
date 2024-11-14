@@ -1,0 +1,108 @@
+html {
+    text-align: center;
+    min-height: 100%;
+    min-width: 1024px;
+    background: linear-gradient(
+      90deg,
+       #4facfe 0%, #00f2fe 100%
+    );
+    background-size: cover;
+  }
+  body {
+    min-width: 1024px;
+    background: linear-gradient(
+      90deg,
+      #4facfe 0%, #00f2fe 100%
+    );
+    /* background-repeat: no-repeat; */
+  }
+  .array-container {
+    background-color: rgb(5, 5, 5);
+    margin: 0;
+    margin-top: 10px;
+    border: solid 1px grey;
+  }
+  .array {
+    background-color: rgb(7, 7, 7);
+    width: 94%;
+    /* width: 1160px; */
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .array-bar {
+    /* width: 3px; */
+    background-color: lightskyblue;
+    display: inline-block;
+    margin: 0 1px;
+  }
+  
+  .buttons-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 9px;
+  }
+  
+  .increment-bar-array {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .title {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .navText {
+    color: White;
+    text-align: start;
+    font-size: 15px;
+    align-items: center;
+  }
+  
+  /* rotating the range bar as we need max at start and min at end */
+  .speed-display {
+    transform: rotate(180deg);
+  }
+  
+  .generate-array-button {
+    background-color: lightskyblue;
+    padding: 10px 15px;
+    color: black;
+    font-weight: 550;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .stop-animation-button {
+    background-color: rgb(38, 36, 75);
+    padding: 10px 15px;
+    color: white;
+    font-weight: 550;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .sort-button {
+    background-color: black;
+    padding: 10px 15px;
+    color: white;
+    font-weight: 550;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled,
+  button[disabled] {
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+  }
+  
